@@ -17,3 +17,31 @@ function *fib(){
 
 var iter=fib();
 
+// assignment
+
+var [a,b]=[1,2];
+
+//a=1;b=2
+
+// default function argument
+
+function log(name="Gio"){
+  console.log(name);
+}
+
+var {name,age}={name:"Gio",age:20};
+// name="Gio";age=20
+
+//log() -> "Gio"
+
+// object
+
+var obj={
+  foo(){
+    
+  },
+  bar(){
+  }
+};
+
+
